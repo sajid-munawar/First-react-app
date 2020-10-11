@@ -1,16 +1,12 @@
-import React from 'react';
+import React from "react"
+import "./Hello.css"
+// import ReacrDom from "react-dom"
 
-import Dinner from  "./dinner.js";
-
+// import App from "./app"
 
 function App() {
-  return (
-    <div>
-      <Dinner/>
-      {/* Hello world from app.js */}
-   
-    </div>
-  )
+    return <div className="myName">
+        Hello world from Sajid!
+        </div>
 }
-
 export default App;
