@@ -3,12 +3,7 @@ import React from "react"
 function Dinner(props) {
     return (
         <div>
-    <h1>Today we are surving {props.dishName} </h1>
-    
-    
-    <h1>Today we are surving {props.dishName2} </h1>
-    
-    <h1>Today we are surving {props.dishName1} </h1>
+            Hello world from dinner.js
     </div>
     )
 }
