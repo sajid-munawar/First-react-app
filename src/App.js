@@ -2,6 +2,7 @@ import React from "react"
 import "./Hello.css"
 import "./new.js"
 import Student from "./new.js"
+import "./another.css"
 // import ReacrDom from "react-dom"
 
 // import App from "./app"
@@ -9,7 +10,9 @@ import Student from "./new.js"
 function App() {
     return <div className="myName">
         Hello world from Sajid!
-        <Student/>
+        <div className="newColor">
+        <Student />
+        </div>
         </div>
 }
 export default App;
